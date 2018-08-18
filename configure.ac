@@ -6,6 +6,7 @@ AC_CONFIG_MACRO_DIR([m4])
 dnl m4_include([m4/ax_check_openssl.m4])
 
 AM_INIT_AUTOMAKE
+LT_CONFIG_LTDL_DIR([libltdl])
 LT_INIT([disable-static pic-only])
 LTDL_INIT
 
